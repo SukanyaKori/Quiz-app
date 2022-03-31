@@ -1,0 +1,90 @@
+
+
+body{
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(19, 33, 156)),url('w2.jpg') no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.contents h1{
+ justify-content: center;
+text-align: center;
+font-size: 60px;
+background: linear-gradient( rgb(235, 8, 140),rgb(15, 197, 30));
+background-clip: text;
+color: transparent;
+border: transparent;
+
+
+}
+
+.contents h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.contents h5{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.settings .MuiInputBase-input{
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+
+
+.contents button {
+    padding: 0.8rem 1.5rem;
+    background-color: rgb(0, 3, 7);
+    color: black;
+    border-radius: 2rem;
+    margin: 0.5rem 0 1.8rem 0;
+    display: inline-block;
+    transition: all 0.4s;
+    font-family: 'Lora', serif;
+    animation: forbottom 0.5s ease 5s;
+    position: relative;
+    
+}
+
+.contents button::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5rem;
+    transition: all 0.4s;
+    background-color: white;
+}
+
+.contents button:hover::after {
+    cursor: pointer;
+    transform: scale(2);
+    opacity: 0;
+    
+}
+
+.contents button:active {
+    transform: scale(0.9);
+}
+
+.error{
+    color:red;
+    padding-bottom: 50px;
+}
