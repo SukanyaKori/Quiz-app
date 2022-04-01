@@ -92,20 +92,20 @@ button {
   margin-bottom: 5px;;
 }
 
-button:focus {
+.activebutton {
   outline: none;
+  background-color: #31ff53;
+
 }
 
-button svg {
-  margin-right: 5px;
-}
 
 
-.button-primary-active {
+
+/* .button-primary-active {
   background-color: #31ff53;
   
   color: white;
-}
+} */
 
 /* 
 .button-primary-inactive {

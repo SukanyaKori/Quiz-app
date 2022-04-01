@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css';
-import Quiz from './my component/Quiz';
+import Quiz from './components/Quiz';
 import { Route, Routes } from "react-router-dom"
-import Home from './my component/Home';
+import Home from './components/Home';
 
 
 
 
 function App() {
-
-  
   return (
-
-    
       
       <Routes>
         
@@ -21,12 +17,6 @@ function App() {
         <Route exact path="/quiz" element={<Quiz />} />
           
       </Routes>
-
-    
-
-
-
-  
 
   );
 }
